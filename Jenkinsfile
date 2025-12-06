@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     sh """
-                    docker build -t ${DOCKERHUB_USERNAME}/${IMAGE_NAME}:latest .
+                    docker build --no-cache -t ${DOCKERHUB_USERNAME}/${IMAGE_NAME}:latest .
                     """
                 }
             }
