@@ -55,7 +55,7 @@ pipeline {
                         sudo docker pull ${DOCKERHUB_USERNAME}/${IMAGE_NAME}:latest &&
                         sudo docker stop login-container || true &&
                         sudo docker rm login-container || true &&
-                        sudo docker run -d -p 3000:3000 --name login-container ${DOCKERHUB_USERNAME}/${IMAGE_NAME}:latest
+                        sudo docker run -d -p 3001:3001 --name login-container ${DOCKERHUB_USERNAME}/${IMAGE_NAME}:latest
                     '
                     """
                 }
