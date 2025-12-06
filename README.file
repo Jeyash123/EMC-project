@@ -1,0 +1,43 @@
+# Creative Login App – Node.js | Docker | Jenkins CI/CD | AWS EC2
+
+A complete full-stack mini-project showcasing a **creative animated login page** built using HTML/CSS/JS on the frontend and **Node.js (Express)** on the backend.  
+The application is containerized using **Docker**, pushed to **Docker Hub**, and deployed on an **AWS EC2** instance through an automated **Jenkins CI/CD pipeline**.  
+This project also supports monitoring using **Prometheus + Grafana + Node Exporter + cAdvisor**.
+
+---
+
+## 📌 Features
+
+- Beautiful & responsive **login page**
+- Node.js backend with a `/login`
+- Docker containerization (multi-environment support)
+- Automated CI/CD pipeline using Jenkins
+- Automatic deployment to AWS EC2
+- integration with Prometheus & Grafana for monitoring
+
+---
+
+## 🛠 Tech Stack
+
+### **Frontend**
+- HTML5
+- CSS3 (Glass UI, gradient backgrounds)
+- Vanilla JavaScript
+
+### **Backend**
+- Node.js
+- Express.js
+
+### **DevOps**
+- Docker
+- Docker Hub registry
+- Jenkins (CI/CD)
+- AWS EC2 (Ubuntu)
+- SSH deployment
+- Prometheus + Node Exporter + cAdvisor
+- Grafana dashboards
+
+---
+
+## 📁 Project Structure
+
