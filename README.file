@@ -4,7 +4,7 @@ A complete full-stack mini-project showcasing a **creative animated login page**
 The application is containerized using **Docker**, pushed to **Docker Hub**, and deployed on an **AWS EC2** instance through an automated **Jenkins CI/CD pipeline**.  
 This project also supports monitoring using **Prometheus + Grafana + Node Exporter + cAdvisor**.
 
----
+-----
 
 ## 📌 Features
 
