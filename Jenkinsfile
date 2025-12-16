@@ -5,7 +5,7 @@ pipeline {
         DOCKERHUB_USERNAME = "jeyashkrishna"
         IMAGE_NAME = "login-app"
         EC2_USER = "ubuntu"
-        EC2_HOST = "52.66.232.125"
+        EC2_HOST = "13.235.66.40"
     }
 
     stages {
